@@ -14,7 +14,7 @@ title('ORIGINAL IMAGE');
 img_N = 255 - img;
 subplot(2,2,2) ,imshow(img_N);
 title('MATLAB INVERTED IMAGE');
-
+%ADD YOUR BLANK COE FILE HERE
 file = fopen('vsdin.coe','wt');
 fprintf(file,'%s\n','memory_initialization_radix=16;'); 
 fprintf(file,'%s\n','memory_initialization_vector=');
